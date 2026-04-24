@@ -8,8 +8,8 @@ if (!domain || !storefrontAccessToken) {
 }
 
 export const shopifyConfig = {
-    domain: import.meta.env.VITE_SHOPIFY_DOMAIN || 'mock.myshopify.com',
-    storefrontAccessToken: import.meta.env.VITE_SHOPIFY_STOREFRONT_TOKEN || 'mock-token',
+    domain: import.meta.env.VITE_SHOPIFY_DOMAIN || 'recon-9795.myshopify.com',
+    storefrontAccessToken: import.meta.env.VITE_SHOPIFY_STOREFRONT_TOKEN || '2911e28f650b3b3fad0497277486ea8b',
     apiVersion: '2024-01'
 };
 
